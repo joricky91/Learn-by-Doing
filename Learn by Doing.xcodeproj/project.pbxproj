@@ -11,6 +11,7 @@
 		5149A0692B4D31A2001E31DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5149A0682B4D31A2001E31DA /* ContentView.swift */; };
 		5149A06B2B4D31A4001E31DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5149A06A2B4D31A4001E31DA /* Assets.xcassets */; };
 		5149A06E2B4D31A4001E31DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5149A06D2B4D31A4001E31DA /* Preview Assets.xcassets */; };
+		5149A0762B4D3657001E31DA /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5149A0752B4D3657001E31DA /* LaunchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		5149A0682B4D31A2001E31DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5149A06A2B4D31A4001E31DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5149A06D2B4D31A4001E31DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5149A0742B4D35C4001E31DA /* Learn-by-Doing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Learn-by-Doing-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5149A0752B4D3657001E31DA /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +54,12 @@
 		5149A0652B4D31A2001E31DA /* Learn by Doing */ = {
 			isa = PBXGroup;
 			children = (
+				5149A0742B4D35C4001E31DA /* Learn-by-Doing-Info.plist */,
 				5149A0662B4D31A2001E31DA /* Learn_by_DoingApp.swift */,
 				5149A0682B4D31A2001E31DA /* ContentView.swift */,
 				5149A06A2B4D31A4001E31DA /* Assets.xcassets */,
 				5149A06C2B4D31A4001E31DA /* Preview Content */,
+				5149A0752B4D3657001E31DA /* LaunchScreen.swift */,
 			);
 			path = "Learn by Doing";
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			files = (
 				5149A0692B4D31A2001E31DA /* ContentView.swift in Sources */,
 				5149A0672B4D31A2001E31DA /* Learn_by_DoingApp.swift in Sources */,
+				5149A0762B4D3657001E31DA /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,7 @@
 				DEVELOPMENT_TEAM = SHR59DG262;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learn-by-Doing-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,7 @@
 				DEVELOPMENT_TEAM = SHR59DG262;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learn-by-Doing-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
